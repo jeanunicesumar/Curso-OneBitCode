@@ -1,0 +1,44 @@
+Codepen -> Programar
+
+Tipos de dados: Tipos Primitivos
+number e bigint -> Numéricos para trabalhar com bigint basta adicionar um n no final do número
+string -> textos uma lista de caracteres
+boolean -> Lógicos (True ou False)
+null -> Valor nulo, não tem nada, mas tem um valor -> Tem diferença em atribuir nenhum valor e um valor vazio
+null existe porém está vazio
+undefined -> Não tem valor
+
+Tipos não Primitivos:
+Objetos -> Estrutura com métodos e atributos
+Funções -> Processos executáveis
+
+Variáveis
+let -> Variável (utilizar essa) -> Uma forma mais moderna de declarar variáveis
+const -> CONSTANTES 
+var -> var nome = 'Atribuição de valor' -> Forma antiga
+
+nomearVariáveis
+nomesSignificativos
+Cases -> Como escrever as letras dos nomes das variáveis
+let nomeDeUsuario -> Assim que devemos escrever em JS (CamelCase)
+
+Snake Case -> Escrever separado por _
+
+OPERADORES E EXPRESSÕES
+ARITMÉTICOS +, -, /, * E (% RESTO)
+AGRUPAMENTO ()
+ATRIBUIÇÃO =, +=, -=, *=, /= E %=
+ENCADEAMENTO -> O . encadear algo
+INCREMENTAR ++ E DECREMENTAR --
+
+CONCATENAÇÃO DE STRINGS
+"Nome: " + " Jean"
+
+COMENTÁRIOS
+// Uma linha
+/* */ Várias linhas
+
+RECURSOS NATIVOS DO NAVEGADOR
+
+Window -> É o objeto global do navegador, não precisa colocar o window antes
+Document -> Faz referência a página HTML

@@ -1,0 +1,56 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+header {
+  padding: 10px 30px;
+  width: 100%;
+  background-color: black;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.logo_rock {
+  height: 40px;
+}
+
+.logo_onebitcode {
+  height: 40px;
+}
+
+.buttons {
+  display: flex;
+  gap: 10px;
+}
+
+.buttonHeader {
+  padding: 10px;
+  border-radius: 5px;
+  color: white;
+  background-color: black;
+  border: 1px solid white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.buttonHeader:hover {
+  border: 1px solid red;
+  color: red;
+}
+
+@media (max-width: 320px) {
+  header {
+    flex-direction: column;
+    gap: 20px;
+  }
+}
+
+@media (max-width: 500px) {
+  header {
+    flex-direction: row;
+  }
+}

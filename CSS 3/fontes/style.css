@@ -1,0 +1,19 @@
+p {
+  width: 80%;
+  margin: 10px auto;
+  font-family: Arial;
+  font-size: 30px;
+  font-weight: 400;
+  font-style: italic;
+  line-height: 1.5;
+  text-align: justify;
+  font-family: "Dancing Script", cursive;
+}
+
+h1 {
+  margin: 0 auto;
+  width: 15%;
+  text-decoration: underline;
+  text-align: center;
+  font-family: "Dancing Script", cursive;
+}

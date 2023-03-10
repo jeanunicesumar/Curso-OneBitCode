@@ -1,0 +1,21 @@
+body {
+  box-sizing: border-box;
+}
+
+div.main {
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  margin-top: -100px;
+  margin-left: -15%;
+  width: 30%;
+  height: 200px;
+}
+
+.main div {
+  margin-left: 3px;
+  float: left;
+  width: 32%;
+  height: 200px;
+  border: 1px solid black;
+}
