@@ -42,3 +42,30 @@ RECURSOS NATIVOS DO NAVEGADOR
 
 Window -> É o objeto global do navegador, não precisa colocar o window antes
 Document -> Faz referência a página HTML
+
+ARRAYS
+Os indices de um array por padrão é um inteiro que começa em 0
+array = []
+// ADICIONAR ELEMENTOS
+array.push() -> Adiciona um elemento no final do array retorna o tamanho do array
+array.unshift() -> Adiciona um elemento no começo do array retorna o tamanho do array
+
+// REMOVER ELEMENTOS
+array.pop() -> Remove o último elemento do array e retorna ele, pode armazenar em uma variável
+array.shift() -> Remove o primeiro elemento do array e retorna ele, pode armazenar em uma variável
+
+// PESQUISAR POR UM ELEMENTO
+array.includes() -> Retorna um bool informando se o valor existe ou não
+array.indexOf() -> Retorna o indice do elemento pesquisado
+
+// CORTAR E CONCATENAR
+array.slice(de, ate) -> retorna um novo array com os valores definidos no slice
+
+// CONCATENAR -> JUNTAR DOIS ARRAYS
+array.concat(array) -> Concatena arrays (Junta) 
+
+// SUBSTITUIR ELEMENTOS
+array.splice(de, ate, elementos) -> Remover um grupo de elementos do array e substituir por outro grupo de elementos
+
+// PERCORRER O ARRAY
+array.length -> retorna o tamanho do array
